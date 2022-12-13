@@ -10,6 +10,12 @@ ul {
 
 p {
 	margin: 0;
+	color: #272727;
+	font-family: museo-sans;
+	font-size: 0.9rem;
+	font-weight: 200;
+	line-height: 1.6rem;
+	letter-spacing: 1px;
 }
 
 #content {
@@ -34,8 +40,8 @@ p {
 	color: rgb(255, 252, 249);
 	letter-spacing: 0.2em;
 	margin: 0;
-  font-variant: small-caps;
-  font-size: .8rem;
+	font-variant: small-caps;
+	font-size: 0.8rem;
 }
 
 #top-bar {
@@ -50,6 +56,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: ltc-caslon-pro;
 }
 
 #nav-menu {
@@ -57,24 +64,44 @@ p {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 20px;
-  font-family: museo-sans;
-  font-weight: 300;
-  font-size: .9rem;
+	font-family: museo-sans;
+	font-weight: 300;
+	font-size: 0.8rem;
+}
+
+#nav-menu a {
+	text-transform: uppercase;
 }
 
 #main-container {
 	display: grid;
+	grid-template-rows: auto auto 1fr;
 	grid-template-columns: 1fr auto auto 1fr;
 	align-items: center;
 	grid-gap: 30px;
+	text-align: center;
 }
 
 #main-image {
-  max-width:100vw;
+	max-width: 100vw;
+	height: 200px;
+	grid-row-start: 1;
 	grid-column-start: 1;
-  grid-column-end: 3;
+	grid-column-end: 5;
+	background-image: url("mozz.jpg");
+	background-size: 100vw;
+	background-position: center;
+}
+
+#text-container {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+#title {
+	font-size: 1.9rem;
+	font-weight: 400;
 }
 
 .text-block {
-	width: 300px;
 }
