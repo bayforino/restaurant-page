@@ -1,5 +1,5 @@
 import { loadHomepage } from "./load-homepage";
+import { loadHeader } from "./load-header";
 
-console.log('Hello, worm!');
-
+loadHeader();
 loadHomepage();
