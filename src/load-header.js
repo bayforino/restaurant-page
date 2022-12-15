@@ -1,3 +1,4 @@
+import { loadContact } from "./load-contact";
 import { loadHomepage } from "./load-homepage";
 import { loadOurStory } from "./load-our-story";
 
@@ -41,7 +42,9 @@ export function loadHeader() {
 
 	const navItem1 = document.getElementById("nav-item-1");
 	const navItem2 = document.getElementById("nav-item-2");
+	const navItem3 = document.getElementById("nav-item-3");
 
 	navItem1.addEventListener("click", loadHomepage);
 	navItem2.addEventListener("click", loadOurStory);
+	navItem3.addEventListener("click", loadContact);
 }
