@@ -3,9 +3,9 @@ import { clearDOM } from "./index";
 export function loadHomepage() {
 	clearDOM();
 	console.log("loading homepage");
-    const navItem1 = document.getElementById('nav-item-1');
-    const navItem2 = document.getElementById('nav-item-2');
-    const navItem3 = document.getElementById('nav-item-3');
+	const navItem1 = document.getElementById("nav-item-1");
+	const navItem2 = document.getElementById("nav-item-2");
+	const navItem3 = document.getElementById("nav-item-3");
 	const mainContainer = document.getElementById("main-container");
 	const heroImage = document.createElement("div");
 	const textContainer = document.createElement("div");
@@ -16,9 +16,9 @@ export function loadHomepage() {
 	let titleContent =
 		"Experience the Finest Handcrafted Italian Cheese at Da Guglielmo";
 
-    navItem1.style.cssText = "border-bottom: rgb(200, 200, 200) 1px solid";
-    navItem2.style.cssText = "";
-    navItem3.style.cssText = "";
+	navItem1.style.cssText = "border-bottom: rgb(200, 200, 200) 1px solid";
+	navItem2.style.cssText = "";
+	navItem3.style.cssText = "";
 	document.title = "Da Guglielmo | Home";
 	mainContainer.appendChild(heroImage);
 	heroImage.id = "home-image";
