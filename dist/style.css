@@ -24,9 +24,8 @@ p {
 }
 
 #header {
-	position: fixed;
-	left: 0;
-	right: 0;
+	position: sticky;
+	top: 0;
 }
 
 #title-bar {
@@ -94,8 +93,8 @@ p {
 
 .main-image {
 	max-width: 100vw;
-	min-height: 50vh;
-	height: 200px;
+	min-height: 30vh;
+	height: 150px;
 	max-height: 300px;
 	grid-row-start: 1;
 	grid-column-start: 1;
