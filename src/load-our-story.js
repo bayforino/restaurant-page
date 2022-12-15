@@ -1,5 +1,4 @@
 import { clearDOM } from "./index";
-import { loadHeader } from "./load-header";
 
 export function loadOurStory() {
 	clearDOM();

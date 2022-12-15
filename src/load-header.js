@@ -1,4 +1,3 @@
-import { clearDOM } from "./index";
 import { loadHomepage } from "./load-homepage";
 import { loadOurStory } from "./load-our-story";
 
